@@ -1,0 +1,27 @@
+# Apple Intelligence / Siri / iCloud
+
+# 建议整组同出口
+
+DOMAIN-SUFFIX,apple.com
+
+DOMAIN-SUFFIX,icloud.com
+
+DOMAIN-SUFFIX,icloud-content.com
+
+DOMAIN-SUFFIX,apple-cloudkit.com
+
+DOMAIN-SUFFIX,mzstatic.com
+
+DOMAIN-SUFFIX,aaplimg.com
+
+DOMAIN-SUFFIX,cdn-apple.com
+
+DOMAIN,appsto.re
+
+# Siri 相关
+
+DOMAIN-SUFFIX,siri.apple.com
+
+DOMAIN-SUFFIX,guzzoni.apple.com
+
+DOMAIN-SUFFIX,smoot.apple.com
