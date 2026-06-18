@@ -1,6 +1,32 @@
 {
   "version": 1,
-  "exportedAt": null,
-  "selectionCount": 0,
-  "selections": {}
+  "exportedAt": "2026-06-18T07:50:26.683Z",
+  "source": {
+    "system": "macOS",
+    "deviceModel": "Macmini9,1",
+    "surgeVersion": "6.6.0",
+    "surgeBuild": "11270",
+    "scriptName": "group_default_export"
+  },
+  "selectionCount": 18,
+  "selections": {
+    "Proxy": "Auto-Test-HK",
+    "Termius": "Proxy",
+    "Netflix": "Auto-Test-HK",
+    "HBO_Max": "Auto-Test-HK",
+    "YouTube": "Auto-Test-HK",
+    "DMM": "Po0_CS-RFC-Lisa-JP01",
+    "GitHub": "Proxy",
+    "Telegram": "Proxy",
+    "Steam": "Proxy",
+    "Apple_Intelligence": "Po0_CS-RFC-Lisa-JP01",
+    "OpenAI": "Po0_CS-RFC-Lisa-JP01",
+    "AI_Suite": "Po0_CS-RFC-Lisa-JP01",
+    "Apple": "DIRECT",
+    "Microsoft": "DIRECT",
+    "JD": "DIRECT",
+    "TikTok": "Proxy",
+    "Global": "Proxy",
+    "Final": "Proxy"
+  }
 }
