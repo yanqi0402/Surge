@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-18T07:50:26.683Z",
+  "exportedAt": "2026-06-18T08:09:35.471Z",
   "source": {
-    "system": "macOS",
-    "deviceModel": "Macmini9,1",
-    "surgeVersion": "6.6.0",
-    "surgeBuild": "11270",
+    "system": "iOS",
+    "deviceModel": "iPhone18,2",
+    "surgeVersion": "5.19.0",
+    "surgeBuild": "3727",
     "scriptName": "group_default_export"
   },
   "selectionCount": 18,
@@ -25,7 +25,7 @@
     "Apple": "DIRECT",
     "Microsoft": "DIRECT",
     "JD": "DIRECT",
-    "TikTok": "Proxy",
+    "TikTok": "Po0_CS-RFC-Lisa-JP01",
     "Global": "Proxy",
     "Final": "Proxy"
   }
