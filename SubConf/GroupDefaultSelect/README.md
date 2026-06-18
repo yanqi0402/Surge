@@ -1,23 +1,23 @@
 # GroupDefaultSelect
 
-This directory stores and applies the selected policy for Surge `select` policy groups.
+这个目录用于保存和应用 Surge `select` 策略组的当前选择。
 
-The public `defaults.json` file only contains group names and selected policy names. It must not contain proxy descriptors, PSK values, controller passwords, `SUB_TOKEN`, or GitHub tokens.
+公开的 `defaults.json` 文件只保存组名和选中的策略名。这里不能保存代理节点详情、PSK 值、控制器密码、`SUB_TOKEN` 或 GitHub token。
 
-## Flow
+## 工作流程
 
-1. Pick policy selections manually in one Surge client.
-2. Run the `Group Default Export` panel or generic script.
-3. The script reads local selections with Surge `$httpAPI`.
-4. The Cloudflare Worker validates the selections against the current template and writes `defaults.json` to this GitHub directory.
-5. Run the `Group Default Import` panel or generic script on another Surge client.
+1. 在一台 Surge 客户端里手动选好各个策略组。
+2. 运行 `Group Default Export` 面板或 generic 脚本。
+3. 脚本通过 Surge `$httpAPI` 读取本机当前选择。
+4. Cloudflare Worker 根据当前模板校验这些选择，并把 `defaults.json` 写入这个 GitHub 目录。
+5. 在另一台 Surge 客户端运行 `Group Default Import` 面板或 generic 脚本。
 
 ## Worker Secret
 
-The export endpoint needs a GitHub fine-grained token with Contents read/write permission for this repository. Store it only as a Cloudflare Worker Secret:
+导出端点需要一个 GitHub fine-grained token，并且只需要给当前仓库 Contents read/write 权限。这个 token 只能保存为 Cloudflare Worker Secret：
 
 ```bash
 npx wrangler secret put GROUP_DEFAULT_SELECT_GITHUB_TOKEN
 ```
 
-Do not commit the token to this repository or to the Surge profile template.
+不要把这个 token 提交到本仓库，也不要写进 Surge 配置模板。
