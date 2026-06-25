@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-25T11:01:50.593Z",
+  "exportedAt": "2026-06-25T11:53:45.759Z",
   "source": {
-    "system": "macOS",
-    "deviceModel": "Mac16,10",
-    "surgeVersion": "6.6.0",
-    "surgeBuild": "11270",
+    "system": "iOS",
+    "deviceModel": "iPhone18,2",
+    "surgeVersion": "5.19.0",
+    "surgeBuild": "3727",
     "scriptName": "group_default_export"
   },
   "selectionCount": 18,
@@ -15,7 +15,7 @@
     "Netflix": "Auto-Test-HK",
     "HBO_Max": "Auto-Test-HK",
     "YouTube": "🇭🇰🏠Po0_GZ_CS-RFC_HK_T1_01-Lisa_HK_01",
-    "DMM": "🇯🇵🏠Po0_SH_LB-RFC_JP_CO_01-Lisa_JP_01",
+    "DMM": "🇯🇵🏠Po0_SH_CS-RFC_JP_CO_01-Lisa_JP_01",
     "GitHub": "Proxy",
     "Telegram": "Proxy",
     "Steam": "Proxy",
