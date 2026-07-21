@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-21T12:37:31.212Z",
+  "exportedAt": "2026-07-21T12:44:48.078Z",
   "source": {
-    "system": "macOS",
-    "deviceModel": "Mac16,10",
-    "surgeVersion": "6.6.0",
-    "surgeBuild": "11270",
+    "system": "iOS",
+    "deviceModel": "iPhone18,2",
+    "surgeVersion": "5.19.0",
+    "surgeBuild": "3727",
     "scriptName": "group_default_export"
   },
   "selectionCount": 18,
@@ -25,7 +25,7 @@
     "Apple": "DIRECT",
     "Microsoft": "DIRECT",
     "JD": "DIRECT",
-    "TikTok": "BOIL_HKT-ProxyGroup",
+    "TikTok": "Auto-Test-JP",
     "Global": "Proxy",
     "Final": "Proxy"
   }
