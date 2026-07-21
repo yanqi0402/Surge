@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "exportedAt": "2026-06-26T01:12:01.554Z",
+  "exportedAt": "2026-07-21T12:37:31.212Z",
   "source": {
-    "system": "iOS",
-    "deviceModel": "iPhone18,2",
-    "surgeVersion": "5.19.0",
-    "surgeBuild": "3727",
+    "system": "macOS",
+    "deviceModel": "Mac16,10",
+    "surgeVersion": "6.6.0",
+    "surgeBuild": "11270",
     "scriptName": "group_default_export"
   },
   "selectionCount": 18,
   "selections": {
     "Proxy": "Auto-Test-HK",
     "Termius": "Proxy",
-    "Netflix": "Auto-Test-HK",
-    "HBO_Max": "🇭🇰🏠GoMami_Turin_HK_01-Lisa_HK_01",
-    "YouTube": "🇭🇰🏠Po0_GZ_CS-RFC_HK_T1_01-Lisa_HK_01",
+    "Netflix": "BOIL_HKT-ProxyGroup",
+    "HBO_Max": "BOIL_HKT-ProxyGroup",
+    "YouTube": "BOIL_HKT-ProxyGroup",
     "DMM": "🇯🇵🏠Po0_SH_CS-RFC_JP_CO_01-Lisa_JP_01",
     "GitHub": "Proxy",
     "Telegram": "Proxy",
@@ -25,7 +25,7 @@
     "Apple": "DIRECT",
     "Microsoft": "DIRECT",
     "JD": "DIRECT",
-    "TikTok": "🇯🇵🏠Po0_SH_CS-RFC_JP_CO_01-Lisa_JP_01",
+    "TikTok": "BOIL_HKT-ProxyGroup",
     "Global": "Proxy",
     "Final": "Proxy"
   }
